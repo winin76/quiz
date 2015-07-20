@@ -6,6 +6,9 @@
   </head>
   <body>
     <h1>Bienvenido a <%= title %></h1>
-    <p>El portal de juegos de con tus propias preguntas</p>
+    <p>El portal de juegos con tus propias preguntas!!!!</p>
+
+// METEMOS UN ENLACE CLICABLE A LA PRIMERA PREGUNTA V4
+ <p><a href="/quizes/question">Comience a jugar</a></p>
   </body>
 </html>
