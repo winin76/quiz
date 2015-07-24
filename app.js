@@ -77,4 +77,35 @@ app.use(function(err, req, res, next) {
 });
 
 
+
+
+/////////////////////////
+
+//var fs = require('fs');
+//fs.writeFile('./file2.txt', app)
+
+//var fs = require('fs');
+//var transaccion = fs.createWriteStream(__dirname + '/node.transaccion.log', { flags: 'a' })
+//var error = fs.createWriteStream(__dirname + '/node.error.log', { flags: 'a' });
+
+// redirect stdout / stderr
+//process.stdout.pipe(transaccion);
+//process.stderr.pipe(error);
+
+////////////////////////////
+
+
+//var http = require('http')
+//  , fs = require('fs')
+//  ;
+ 
+//var server = http.createServer(function (req, res) {
+
+//return fs.createWriteStream(__dirname + '/data.txt', app(),{flags:'a'});
+ 
+//});
+
+/////////////////////////7
+
+
 module.exports = app;
