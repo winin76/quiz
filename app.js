@@ -82,14 +82,23 @@ app.use(function(err, req, res, next) {
 /////////////////////////
 
 //var fs = require('fs');
-//fs.writeFile('./file2.txt', app)
+
+//app.createServer(function(req, res) {
+  // This opens up the writeable stream to `output`
+ // fs.createWriteStream('./output');
+
+  // This pipes the POST data to the file
+  //pipe(fs.createWriteStream);
+
+//var fs = require('fs');
+//fs.writeFile('./file2.txt', process.stdout)
 
 //var fs = require('fs');
 //var transaccion = fs.createWriteStream(__dirname + '/node.transaccion.log', { flags: 'a' })
 //var error = fs.createWriteStream(__dirname + '/node.error.log', { flags: 'a' });
 
 // redirect stdout / stderr
-//process.stdout.pipe(transaccion);
+//process.stdout.pipe();
 //process.stderr.pipe(error);
 
 ////////////////////////////
