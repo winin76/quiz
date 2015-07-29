@@ -5,10 +5,12 @@
   "scripts": {
     "start": "nodejs ./bin/www"
   },
+
   "engines": {
     "nodejs": "0.10.x",
     "npm": "1.4.x"
   },
+
 
   "devDependencies": {
      "sqlite3": "2.2.0"
@@ -23,7 +25,7 @@
     "debug": "~2.0.0",
     "ejs": "~0.8.5",
     "sequelize": "~1.7.0",
-    "pg": "4.1.1"
+    "pg": "~4.1.1"
   },
 }
 
