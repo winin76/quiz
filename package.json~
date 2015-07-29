@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodejs ./bin/www"
+    "start": "node.js ./bin/www"
   },
   "engines": {
-    "nodejs": "0.10.x",
+    "node.js": "0.10.x",
     "npm": "1.4.x"
   },
 
