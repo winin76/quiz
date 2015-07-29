@@ -13,7 +13,7 @@
 
 
   "devDependencies": {
-     "sqlite3": "2.2.0"
+     "sqlite3": "~2.2.0"
   },
   "dependencies": {
     "express": "~4.9.0",
